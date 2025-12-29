@@ -80,7 +80,7 @@ def createInputJson(output_file,
                     ):
 
     # hard coded paths to code on your computer and system
-    ecephys_directory = r'C:\Users\colonellj\Documents\ecephys_spike_sorting\ecephys_spike_sorting'
+    ecephys_directory = r'C:\Users\jbrzac\Documents\ecephys_spike_sorting\json_files'
     
     # location of kilosort respositories for MATLAB versions.
     # determins what will be run by the kilosort_helper module

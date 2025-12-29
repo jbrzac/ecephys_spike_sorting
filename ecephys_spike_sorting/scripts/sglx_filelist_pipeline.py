@@ -19,7 +19,7 @@ from create_input_json import createInputJson
 # -------------------------------
 # Full path to log file, including file name
 # If this file exists, new run data is appended to it
-logFullPath = r'D:\SC048_out\pipeline_log.csv'
+logFullPath = r'E:\analysis\pipeline_log.csv'
 
 # ks_ver  sets up the output tag and threshold values.
 # To run a specific MATLAB KS, make sure to set up the kilosort_repository in 
@@ -37,6 +37,7 @@ ks_output_tag = ksTag_dict[ks_ver]
 # according to the new dictionary in the loop to that created json files.
 #
 
+#can add regions later - once I know how to make the dict for it and we have more than one region
 refPerMS_dict = {'default': 2.0, 'cortex': 2.0, 'medulla': 1.5, 'thalamus': 1.0, 'striatum': 2.0, 'midbrain':1.5}
 
 # threhold values appropriate for KS2, KS2.5
